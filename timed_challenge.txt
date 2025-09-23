@@ -1,0 +1,106 @@
+Group 1: Ordered and Indexed
+1. Rotate Right
+Rotate the values in a collection to the right by k steps.
+Input: [1, 2, 3, 4, 5], k = 2
+Output: [4, 5, 1, 2, 3]
+
+2. Running Total with Reset
+Track a running total of values. If a negative number is added, reset the total to 0.
+Input: [5, 7, -1, 3, 2]
+Output: [5, 12, 0, 3, 5]
+
+3. Remove Duplicates (Keep Order)
+Return the values in the order they first appeared, without duplicates.
+Input: ["apple", "banana", "apple", "kiwi", "banana"]
+Output: ["apple", "banana", "kiwi"]
+
+4. Remove Every k-th Value
+Remove every k-th value from a collection and return the result.
+Input: [10, 20, 30, 40, 50, 60], k = 3
+Output: [10, 20, 40, 50]
+
+Group 2: Fast Lookup / Uniqueness
+5. Unique Word Count
+Count how many distinct words are in the collection.
+Input: "one fish two fish red fish blue fish"
+Output: 5
+
+6. Symmetric Difference
+Return all values that appear in exactly one of two collections.
+Input: [1, 2, 3], [3, 4, 5]
+Output: [1, 2, 4, 5]
+
+7. First Repeated Value
+Return the first value that repeats in the collection.
+Input: [1, 4, 3, 5, 3, 2, 1]
+Output: 3
+
+8. Already Seen
+Track a series of user IDs and return the number of new users.
+Input: [101, 102, 101, 103, 104, 102]
+Output: 3
+
+Group 3: Pointer-Based Traversal
+9. Insert After Value
+Insert a new value immediately after the first occurrence of a target.
+Input: [A, B, C], Insert "X" after "B"
+Output: [A, B, X, C]
+
+10. Remove by Value
+Remove the first occurrence of a given value from a sequence.
+Input: [10, 20, 30, 20], Remove 20
+Output: [10, 30, 20]
+
+11. Reverse the Sequence
+Reverse a sequence using only pointer-based operations.
+Input: [a, b, c, d]
+Output: [d, c, b, a]
+
+12. Count Items in Structure
+Given a head reference, count the number of items stored.
+Input: "head" → "node1" → "node2" → None
+Output: 3
+
+Group 4: Last-In, First-Out Logic
+13. Balanced Symbols
+Check if the brackets in a string are balanced.
+Input: "{[()]}"
+Output: True
+Input: "{[(])}"
+Output: False
+
+14. Navigation System
+Simulate a system that supports moving forward and backward through items.
+Actions: visit("A"), visit("B"), back(), forward()
+Output: "A", "B", "A", "B"
+
+15. Reverse Characters
+Reverse a string using custom logic, not slicing or built-in methods.
+Input: "hello"
+Output: "olleh"
+
+16. Get Minimum
+Design a system that supports add, remove, and retrieving the minimum value at any time.
+Actions: add(5), add(3), get_min()
+Output: 3
+
+Group 5: First-In, First-Out Logic
+17. Service Line Simulation
+Simulate a line where values are added at one end and removed from the other.
+Actions: add("A"), add("B"), serve()
+Output: "A"
+
+18. Keep Last X Values
+Track the last 3 items in a stream of values. Older values should be removed automatically.
+Input: Add [1, 2, 3, 4, 5]
+Output: [3, 4, 5]
+
+19. Alternate Merge
+Alternate values from two sequences into one.
+Input: [1, 3, 5], [2, 4, 6]
+Output: [1, 2, 3, 4, 5, 6]
+
+20. Expiring Items
+Track values with timestamps. Remove items older than a threshold.
+Input: Add events at t=1, 3, 7, then filter out older than t=5
+Output: [7]
