@@ -14,7 +14,12 @@ Output: False
 
 def has_duplicates(product_ids):
     # Your implementation here
-    pass
+    product_ids = set()
+    for element in product_ids:
+        if element in product_ids:
+            return True
+        product_ids.add(element)
+    return False
 
 
 """
@@ -33,13 +38,14 @@ task_queue.remove_oldest_task() → "Email follow-up"
 class TaskQueue:
     def __init__(self):
         # Your initialization here
-        pass
+        task = TaskQueue()
 
     def add_task(self, task):
-        pass
+        task.add_task("Email")
+        task.add_task("Code review")
 
     def remove_oldest_task(self):
-        pass
+        self.remove_oldest_task()
 
 
 """
@@ -57,10 +63,10 @@ tracker.get_unique_count() → 2
 
 class UniqueTracker:
     def __init__(self):
-        pass
+        self = self
 
     def add(self, value):
-        pass
+        value.add(10)
 
     def get_unique_count(self):
-        pass
+        self.get_unique_count()
