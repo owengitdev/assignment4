@@ -8,3 +8,12 @@
 # Output: True
 # Input: "{[(])}"
 # Output: False
+
+def symbols(symbol):
+    symbol = set()
+    for element in symbol:
+        if element in symbol:
+            return True
+        symbol.add(element)
+        symbol.pop(element)
+    return False
