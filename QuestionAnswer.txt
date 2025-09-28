@@ -1,0 +1,12 @@
+What structure you chose and why?
+The structure that I've chosen is Lists, Lists is about making a list of what order
+that the user implemented, and it can depend on what orders it can be like First to Last or First.
+I believe that list is probably easier than other structures.
+
+How the time limit shaped your decision?
+The time limit give me some pressure to make a decision since there is a 30-minute timer to pick and
+to complete the question. The time limit is like you need to get the function to work asap(As Soon as Possible).
+
+What trade-offs or compromises you made under time pressure?
+There are some compromises that can come while working like for example, I'm under pressure
+to get this project done in order the software to function properly.
